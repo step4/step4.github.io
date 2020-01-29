@@ -15,7 +15,7 @@ Der Name *Git* bedeutet in der britischen Umgangssprache so viel wie *Blödmann*
 Am besten funktionert Git mit Dateien, die Text beinhalten, kann aber jegliche Dateien versionieren. Bei Textdateien werden nur die Änderungen zwischen den einzelnen Versionen betrachtet und somit effizient gespeichert. Bei binären Dateien werden diese jedesmal ganz gespeichert wenn eine Änderung vorliegt. 
 Daher eignet sich Git bestens Quellcode jeglicher Sprachen.
 
-In Git gibt es drei Hauptzustände für eine Datei: *commited*, *modified* und*staged*.
+In Git gibt es drei Hauptzustände für eine Datei: *commited*, *modified* und *staged*.
 - Ist die Datei commited, so ist sie und die letze Änderung in der lokalen Datenbank gespeichert.
 - Ist die Datei modified, so wurde sie seit der letzten Version geändert und noch nicht in der lokalen Datenbank eingecheckt.
 - Ist die Datei staged, so ist sie und ihre Änderung für den nächsten *commit*, also das einchecken in die Datenbank, vorgemerkt.
@@ -29,7 +29,7 @@ Diese drei Hauptzustände führen zu den Hauptbereichen eines Git-Projektes:
 
 ---------------------------------
 
-# BRanches erklären
+# Branches erklären
 Zweige bzw. *branches* werden verwendet um von der aktuellen Version, dem Hauptstamm, abzuzweigen um Features, Bugfixes oder Rumprobieren in einem eigenen *branch* weiter zu programmieren und schließlich, wenn alles funktioniert, wieder in den *master* zurückzuführen. Dieses zurückführen nennt man auch *mergen*.
 
 ## Git CLI
